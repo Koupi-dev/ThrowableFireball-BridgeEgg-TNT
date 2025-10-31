@@ -1,0 +1,28 @@
+# ファイアーボールを投げちゃおう!! ついでに置いた瞬間着火されるTNTとか、ブリッジエッグとかも使っちゃおうぜ!
+
+# クールダウン(秒) デフォルト:1
+cooldown: 0
+
+# ファイアーボールの速さ デフォルト: 2.0
+fireball-speed: 2.0
+
+# ファイアーボールの爆発範囲とダメージ
+fireball-yield: 5
+fireball-damage-percent: 50
+fireball-knockback: 2
+
+# ブリッジエッグ設定
+bridge-material: POINTED_DRIPSTONE
+bridge-delay: 5
+bridge-width: 50
+bridge-block: true      # ブロック生成の有効/無効
+bridge-entity: false    # エンティティ生成の有効/無効
+bridge-entity-type: ZOMBIE # スポーンさせるエンティティの種類
+
+# TNT設定
+tnt-duration: 1
+tnt-damage-percent: 50
+
+# メッセージ
+messages:
+  cooldown: "クールダウン中です"

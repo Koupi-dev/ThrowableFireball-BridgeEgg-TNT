@@ -1,0 +1,12 @@
+name: ThrowableFireball
+version: '2.0'
+main: dev.koupi.throwableFireball.ThrowableFireball
+api-version: '1.21'
+prefix: [ UTILZ ]
+authors: [ Koupi ]
+description: Fireball + BridgeEgg + AutoTNT Utilities
+commands:
+  utilz:
+    description: Utility plugin commands
+    usage: /utilz <give|reload>
+    aliases: [utl]
